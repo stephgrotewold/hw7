@@ -34,7 +34,7 @@ root.right = newNode("Susi")
 root.left.left = newNode("Jorge")
 root.left.right = newNode("Sara")
 root.right.left = newNode("Coralia")
-#root.right.right = newNode("Manuel")
+root.right.right = newNode("Manuel")
 
 if (perfect(root, calculateDepth(root))):
     print("Este es un arbol binario perfecto")
